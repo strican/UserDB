@@ -1,0 +1,18 @@
+<p>
+  <b>First:</b>
+  <%=h @user.first %>
+</p>
+
+<p>
+  <b>Last:</b>
+  <%=h @user.last %>
+</p>
+
+<p>
+  <b>Job description:</b>
+  <%=h @user.job_description %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
